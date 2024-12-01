@@ -2,11 +2,11 @@
   height: 100vh;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   display: flex;
-  align-items: center; /* Ensures content aligns vertically in the center */
-  justify-content: space-between; /* Spreads left and right sections evenly */
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
-  padding: 20px; /* Adds padding for smaller screens */
-  box-sizing: border-box; /* Ensure padding doesn't affect overall layout */
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  padding: 20px;
+  box-sizing: border-box; 
 }
 
 .hero-left {
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  padding: 0 50px; /* Add horizontal padding */
+  padding: 0 50px; 
   line-height: 1.1;
 }
 
@@ -63,22 +63,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px; /* Ensure consistent padding */
-  overflow: hidden; /* Prevent content from spilling out */
+  padding: 0 20px; 
+  overflow: hidden; 
 }
 
 .hero-right img {
   max-width: 100%;
   height: auto;
-  object-fit: contain; /* Ensure image scales properly */
+  object-fit: contain; 
   display: block;
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .hero {
-    height: auto; /* Allow content to dictate height */
-    padding: 20px 10px; /* Adjust padding */
+    height: auto; 
+    padding: 20px 10px;
   }
 
   .hero-left {
